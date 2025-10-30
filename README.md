@@ -2,7 +2,6 @@
 
 [![Live Website](https://img.shields.io/badge/Live-Website-brightgreen)](https://topnotcheducationbd.com)
 [![PHP](https://img.shields.io/badge/PHP-7.0+-blue)](https://www.php.net/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A comprehensive, modern web platform for TopNotch Education, a leading study abroad consultancy. This project provides students with expert guidance, program information, and end-to-end support for international education opportunities.
 
@@ -57,31 +56,58 @@ A comprehensive, modern web platform for TopNotch Education, a leading study abr
 
 ```
 education_consultant/
-├── index.php                 # Homepage
-├── search.php                # Program search page
-├── program-detail.php        # Individual program details
-├── programs.php              # All programs listing
-├── blog.php                  # Blog listing
-├── blog-detail.php           # Individual blog posts
-├── sitemap.php               # Site navigation
-├── australia.php             # Country-specific pages
+├── index.php                   # Homepage
+├── about.php                   # About Us page
+├── apply-now.php               # Application form page
+├── search.php                  # Program search page
+├── program-detail.php          # Individual program details
+├── programs.php                # All programs listing
+├── blog.php                    # Blog listing
+├── blog-detail.php             # Individual blog posts
+├── career-counseling.php       # Career counseling service page
+├── contact.php                 # Contact page
+├── services.php                # Services overview page
+├── career-counseling.php       # Career counseling service page
+├── university-selection.php    # University selection service page
+├── application-assistance.php  # Application assistance service page
+├── visa-processing.php         # Visa guidance service page
+├── ielts-preparation.php       # Test preparation service page
+└── pre-departure-support.php   # Pre-departure support service page
+├── sitemap.php                 # Site navigation sitemap
+├── privacy-policy.php          # Privacy policy and data protection information
+├── terms-of-service.php        # Terms and conditions for using the website
+├── refund-policy.php           # Refund and cancellation policy
+├── destinations.php            # All destinations overview page
+├── australia.php               # Country-specific pages
 ├── uk.php
 ├── usa.php
 ├── malaysia.php
 ├── newzealand.php
 ├── italy.php
 ├── cyprus.php
-├── sendmessage.php           # Contact form handler (uses PHPMailer)
+├── subscribe.php               # Subscribe form handler (uses PHPMailer)
+├── sendmail.php                # Mail form handler (uses PHPMailer)
+├── sendmessage.php             # Contact form handler (uses PHPMailer)
+├── sendappointment.php         # Appointment form handler (uses PHPMailer)
 ├── assets/
-│   ├── css/                  # Stylesheets
-│   ├── js/                   # JavaScript files
-│   └── images/               # Image assets
+│   ├── css/
+│   │   ├── style.css           # Main stylesheet
+│   │   └── hero-mobile.css     # Mobile-specific hero styles
+│   ├── images/                 # All website images and assets
+│   └── js/
+│       └── main.js             # Main JavaScript file
+├── PHPMailer/
+│   ├── PHPMailer.php           # Main PHPMailer class
+│   ├── SMTP.php                # SMTP mailer class
+│   ├── Exception.php           # Exception handler class
+├── config/                     # Configuration files and settings
+├── database/                   # Database connection and schema files
 ├── includes/
-│   ├── header.php            # Site header
-│   ├── footer.php            # Site footer
-│   ├── functions.php         # Backend functions
-│   └── init.php              # Initialization
-└── site-data.php             # Site configuration
+│   ├── footer.php              # Site footer component
+│   ├── functions.php           # Utility functions and data handlers
+│   ├── header.php              # Site header and navigation
+│   └── init.php                # Initialization and configuration
+└── site-data.php               # Site configuration and settings
 ```
 
 ## 🎯 Usage
@@ -99,18 +125,6 @@ education_consultant/
 - Modify program data in `includes/functions.php`
 - Customize styling in `assets/css/style.css`
 - Configure PHPMailer settings for email delivery
-
-## 📸 Screenshots
-
-<!-- Add screenshots of your website here -->
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/topnotch-education/issues).
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
