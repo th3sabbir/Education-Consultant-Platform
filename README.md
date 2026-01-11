@@ -128,7 +128,7 @@ education_consultant/
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Sabbir Ahmed**
 
 - GitHub: [@th3sabbir](https://github.com/th3sabbir)
 - LinkedIn: [Sabbir Ahmed](https://linkedin.com/in/th3sabbir)
