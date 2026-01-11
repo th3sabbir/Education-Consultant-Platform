@@ -5,7 +5,7 @@
 
 A comprehensive, modern web platform for TopNotch Education, a leading study abroad consultancy. This project provides students with expert guidance, program information, and end-to-end support for international education opportunities.
 
-> 🌍 **My First Paid Client Project** - Turning dreams into reality! This marks a significant milestone in my web development journey.
+> 🌍 **My First Paid Client Project** - This marks a significant milestone in my web development journey.
 
 ## 🌟 Features
 
